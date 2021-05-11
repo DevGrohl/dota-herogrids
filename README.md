@@ -9,7 +9,8 @@ You can access your own hero grids from:
 
 You can copy & paste any hero grid from within the "configs" tag and share a picture of the result, example:
 
-![test-grid] (/img/test-grid.png)
+![test-grid](https://raw.githubusercontent.com/DevGrohl/dota-herogrids/master/img/test-grid.png)
+
 ```
 {
   "version": 3,
