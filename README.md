@@ -3,7 +3,7 @@ Simple repository to save, share and expose different herogrid layouts
 
 ## Contributions
 
-You can access your own hero grids from: 
+You can access your own hero grids from:
 
 `Steam\userdata\<STEAM-ID>\570\remote\cfg\hero_grid_config.json`
 
@@ -17,7 +17,7 @@ You can copy & paste any hero grid from within the "configs" tag and share a pic
   "configs":
   [
     "config_name": "test-grid",
-    "categories": 
+    "categories":
     [
       {
         "category_name": "Safe Lane",
@@ -31,3 +31,19 @@ You can copy & paste any hero grid from within the "configs" tag and share a pic
   ]
 }
 ```
+# Automation
+
+While some hero grids require no updates over time like:
+
+- D&D Alignment
+- Classic Dota grid
+
+Other ones can use automation to get updated periodically
+
+- Dota Plus (by rank)
+- Function grid
+
+For this we can use a combination of sites like Dotabuff or opendota to evaluate what is meta at each rank, and further extend on this premise, for example:
+
+- Which heroes are being played by X pro player (RTZ grid / Topson grid)
+- Which heroes have the highest pick and win rate in X tournament (Dreamleague X grid)
